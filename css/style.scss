@@ -1,0 +1,73 @@
+// @import "base/fonts";
+@import "base/root";
+@import "base/global";
+
+@import "blocks/visually-hidden";
+
+@import "blocks/wrapper";
+@import "blocks/container";
+
+@import "blocks/mobile-contacts";
+
+@import "blocks/button";
+@import "blocks/swiper-button";
+@import "blocks/button-menu";
+@import "blocks/more";
+
+@import "blocks/label";
+
+@import "blocks/hero-thumbs";
+@import "blocks/section";
+
+@import "blocks/title";
+@import "blocks/subtitle";
+
+@import "blocks/main";
+@import "blocks/navigation";
+
+@import "blocks/logotype-list";
+@import "blocks/card-list";
+@import "blocks/advantages";
+@import "blocks/cust-slider";
+@import "blocks/custom-form";
+@import "blocks/custom-select";
+@import "blocks/catalog-filter";
+@import "blocks/trucks-details";
+@import "blocks/to-the-back";
+
+@import "sections/header";
+@import "sections/hero-home";
+@import "sections/articles";
+@import "sections/about";
+@import "sections/contacts";
+@import "sections/departments";
+@import "sections/hero-inner";
+@import "sections/just-text";
+@import "sections/about-services";
+@import "sections/companies";
+@import "sections/services-cost";
+@import "sections/truck-card";
+
+@import "sections/footer";
+
+// @import "pages/home-page";
+// @import "pages/catalog";
+// @import "pages/product";
+
+// @import "activity/modal-show";
+
+// @import "pages/search-page";
+
+// @import "activity/scroll";
+// @import "activity/menu-accordion-active";
+@import "activity/menu-open";
+@import "activity/header-sticky";
+// @import "activity/header-search-active";
+
+.scale {
+  transition: all 0.6s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
